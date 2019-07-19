@@ -75,4 +75,5 @@ f_obs = np.array([new_df.iloc[0][0:2].values, new_df.iloc[1][0:2].values])
 f_obs
 
 stats.chi2_contingency(f_obs)[0:3]
-
+##Chi-square test of independence. Since our p-value is greater than .05, we fail to reject the null hypothesis. 
+##That indicates there is no difference of conversion between people who saw the old_page and people who saw the new_page.
